@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+/* MOBILE FIRST */
+/* Paragraphes en rouge et fond est noir*/ 
+p
+{
+	color: red;
+	font-size: 1.2em;
+}
+
+/* Nouvelles règles si la fenêtre fait au moins 500px de large et au plus 1024px */ 
+@media screen and (min-width: 500px) and (max-width: 1024px)
+{
+	p
+	{
+		color: rgba(21, 255, 0, 0.76);
+		background-color: black; 
+		font-size: 2em;
+	} 
+}
+
+/* Nouvelles règles si la fenêtre fait au moins 1024px de large */
+@media screen and (min-width: 1024px)
+{
+	p
+	{
+		color: blue;
+	}
+}

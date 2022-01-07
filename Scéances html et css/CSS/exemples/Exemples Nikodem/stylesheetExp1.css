@@ -1,0 +1,83 @@
+@import url(./stylesheepExp1_2.css);
+
+h3
+{
+    color: #FF000033;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p
+{
+    width: calc((100% - 20px) / 3);
+}
+
+*
+{
+    background-color: burlywood;
+}
+
+.list3
+{
+    color: darkblue;
+}
+
+#para
+{
+    background-color: darkorange; /* selecteur id*/
+}
+
+a[href="#"]
+{
+    background-color: black;
+    text-decoration: none;
+}
+
+p[lang="fr"]
+{
+    color: blue;
+}
+
+p[lang="en"]
+{
+    color: red;
+}
+
+p[lang="sp"]
+{
+    color: green;
+}
+
+p[lang="de"]
+{
+    color: yellow;
+}
+
+a:link
+{
+    color: teal;
+}
+
+a:visited
+{
+    color: royalblue;
+}
+
+a:hover
+{
+    background-color: white;
+}
+
+.mask
+{
+    background-color: purple;
+}
+
+.mask:hover
+{
+    background-color: darkorange;
+}
+
+input:disabled
+{
+    background-color: grey;
+}

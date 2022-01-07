@@ -1,0 +1,25 @@
+/* p:first-line
+    {
+        color: white;
+        background-color: black;
+    } */
+p::first-letter
+    {
+        background-color: aqua;
+    }
+span b
+    {
+        color: aqua;
+    }
+p>b
+    {
+        color: green;   
+    }
+h1+h2
+{
+    background-color: green;
+}
+h1~h2
+{
+    color: yellowgreen;
+}

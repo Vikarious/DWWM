@@ -1,0 +1,46 @@
+li:first-child
+    {
+        color:red;
+    }
+
+li:last-child
+    {
+        color: pink;
+    }
+li:nth-child(3)
+    {
+        color: purple;
+    }
+/* li:nth-child(even)
+    {
+        background-color: rgba(128, 128, 128, 0.514);
+    } */
+/* li:nth-child(3n+1)
+    {
+        background-color: rgba(128, 128, 128, 0.50);
+    } */
+ul li:nth-child(3n+1)
+    {
+        background-color: black;
+        color: rgb(243, 8, 8);
+    }
+td:last-of-type
+    {
+        background-color: yellow;
+    }
+span
+    {
+        color: red;
+    }
+span:only-child
+    {
+        background-color: grey;
+    }
+li:empty
+    {
+        background-color: indigo;
+    }
+div p :not(i.foo)
+    {
+        color: blue;
+    }

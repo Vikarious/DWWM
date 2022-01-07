@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice 1</title>
+    <link rel="stylesheet" href="./styleExo2_1.css">
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Formulaire d'inscription</legend>
+            <div>
+                <label for="name">Nom</label>
+                <input type="text" id="name" placeholder="saisir votre nom"class="inputAlign1" >
+            </div>
+            <div>
+                <label for="surname">Prénom</label>
+                <input type="text" id="surname" placeholder="saisir votre prénom"class="inputAlign2" >
+            </div>
+            <div>
+                <label for="mail">Email</label>
+                <input type="email" id="mail" placeholder="saisir votre Email">
+            </div>
+            <div>
+                <label for="sexe">Sexe</label>
+                <label for="man" class="sexeAlign" >Masculin</label>
+                <input type="radio" id="man" placeholder="Masculin" name="sexe">
+                <label for="woman" class="sexeAlign" >Feminin</label>
+                <input type="radio" id="woman" placeholder="Feminin" name="sexe">
+            </div>
+            <div>
+                <label for="picture">Photo</label>
+                <input type="file" id="picture" placeholder="Choisir un fichier">
+            </div>
+            <div>
+                <label for="country">Pays</label>
+                <select name="Pays" id="country">
+                    <option value="fr">France</option>
+                    <option value="en">Anglais</option>
+                    <option value="sp">Espagnol</option>
+                </select>
+            </div>
+            <div>
+                <label for="progLang" class="multiple" >Les langages préférés</label>
+                <select name="programationLangage" id="progLang" multiple>
+                    <option value="java">Java</option>
+                    <option value="c">C</option>
+                    <option value="c++">C++</option>
+                    <option value="php">PHP</option>
+                </select>
+                <p>Utilisez la touche CTRL pour selectionner plusieurs choix</p>
+            </div>
+            <div>
+                <p class="pDomaine">Domaine d'activités</p>
+                <input type="checkbox" id="computerScience">
+                <label for="computerScience" class="prefAlign" >Informatique</label>
+                <input type="checkbox" id="management">
+                <label for="management" class="prefAlign">Gestion</label>
+                <input type="checkbox" id="learning">
+                <label for="learning" class="prefAlign">Pédagogie</label>
+            </div>
+            <div>
+                <button type="submit">Envoyer</button>
+                <button type="reset">Annuler</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
