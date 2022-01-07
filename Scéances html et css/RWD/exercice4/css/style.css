@@ -28,12 +28,10 @@ body {
 .content {
     background-color: rgb(234, 237, 240);
     height: 600px;
-    order: 4;
 }
 
 .sign-up {
     background-color: rgb(215, 233, 254);
-    order: 3;
 }
 
 .feature-1 {
@@ -52,10 +50,11 @@ body {
     body {
         background-color: rgb(247, 247, 119);
     }
+    .sign-up,
     .feature-1,
     .feature-2,
     .feature-3 {
-        width: 33.33%;
+        width: 50%;
     }
 }
 
@@ -68,5 +67,11 @@ body {
     .feature-2,
     .feature-3 {
         width: 33.33%;
+    }
+    .sign-up {
+        order: 4;
+    }
+    .content {
+        order: 5;
     }
 }
