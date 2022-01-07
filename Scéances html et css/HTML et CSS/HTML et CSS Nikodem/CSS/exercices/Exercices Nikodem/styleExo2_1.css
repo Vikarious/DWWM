@@ -1,0 +1,31 @@
+
+div
+    {
+        margin-bottom: 0.5cm;
+    } 
+label
+    {
+        display: inline-block;
+        width: 200px;
+    }
+.sexeAlign
+    {
+        width: 55px;
+    }
+p
+    {
+        display: inline-block;
+    }
+.multiple
+    {
+        width: 200px;
+    }
+.prefAlign
+    {
+        width: 100px;
+    }
+.pDomaine
+    {
+        display: inline-block;
+        width: 200px;
+    }

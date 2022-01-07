@@ -1,0 +1,20 @@
+p
+    {
+        color: blue;
+    }
+em
+    {
+        color: orange;
+    }
+.red
+    {
+        color: red;
+    }
+span
+    {
+        color: green !important;
+    }
+h1
+    {
+        color: blue;
+    }

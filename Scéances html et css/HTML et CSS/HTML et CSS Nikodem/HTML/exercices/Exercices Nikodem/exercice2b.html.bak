@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title>livre du mois</title>
+		<meta charset ="UFT-8"/>
+		
+		<style>
+		
+			.step {
+			
+				margin: 35px;
+				display: block;
+			
+			}
+		
+		</style>
+	
+	</head>
+	
+	<body>
+	
+		<h1>Les livres du mois</h1>
+		<h2>Les misérables (Victor Hugo)</h2>
+		
+		<div class="step">
+		
+			<p>100 sous</br>ça chauffe salement pour Jean Valjean. A peine libéré, saura-t-il échapper à l'infâme Javert?</br>
+			<strong>DarkLordOfAcademia</strong>:ben, ils meurent tous les deux à la fin</br>
+			<strong>Guy de M.</strong>: c'est pas très émoustillant.</br>
+			<strong>Charles B.</strong>: le Totor, je le préfère en poète.</p>
+			
+		</div>
+		
+		<h2>Les fleurs du mal (Charles Baudelaire)</h2>
+		
+		<div class="step">
+			
+			<p>120 sous</br>Une suite de poèmes sur la femme, le vin, la révolte, la mort et quelques autres.</br>
+			<strong>Louis N.B.</strong>: outrage indigne à la morale publique, aussi scandaleux pour la morale que les misérables l'est en politique.</br>
+			<strong>Victor H.</strong>: pas mal pour un petit jeune.</br>
+			<strong>Guy de M.</strong>: je préférais le titre d'origine.</p>
+		
+		</div>
+		
+	</body>
+
+</html>

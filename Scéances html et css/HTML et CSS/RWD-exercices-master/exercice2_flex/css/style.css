@@ -1,0 +1,44 @@
+body {
+    font-size: xx-large;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: rgb(89, 149, 218);
+    height: 10px;
+}
+
+.header {
+    background-color: rgb(178, 214, 255);
+}
+
+.content {
+    background-color: rgb(234, 237, 240);
+}
+
+.sign-up {
+    background-color: rgb(215, 233, 254);
+}
+
+.feature-1 {
+    background-color: rgb(245, 207, 142);
+}
+
+.feature-2 {
+    background-color: rgb(240, 154, 157);
+}
+
+.feature-3 {
+    background-color: rgb(200, 198, 250);
+}

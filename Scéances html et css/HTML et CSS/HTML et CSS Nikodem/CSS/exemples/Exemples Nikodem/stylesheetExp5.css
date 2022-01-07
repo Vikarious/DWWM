@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Astral Sisters';
+    src: url(./fonts/Astral\ Sisters.ttf);
+}
+/* body
+{
+        font-size: 1em;
+    } */
+html
+    {
+        font-size: 1rem !important;
+    }
+.big
+    {
+        font-size: 2em;
+        font-weight: bolder;
+        font-style: oblique;
+    }
+h2
+    {
+        font:italic normal bold 1.5em 'Astral Sisters';
+    }
+h1
+    {
+        font-variant: small-caps;
+    }
+.small
+    {
+        font-size: 0.5em;
+    }
+.ft-big
+    {
+        font-size: 1.7em;
+    }
+.font-AstralSisters
+    {
+        font-family: 'Astral Sisters';
+        color: turquoise;
+    }
+.font-fix
+    {
+        font-family: 'Courier New', Courier, monospace;
+    }
+.font-none
+    {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.font-with
+    {
+        font-family: Times, 'Times New Roman', serif;
+    }
+.font-lobster
+    {
+        font-family: 'lobster', cursive;
+    }

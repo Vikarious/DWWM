@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Les formulaire</title>
+    </head>
+    <body>
+        <h1>formulaire</h1>
+        <form action="traitement.php" method="post" autocomplete="off" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Civilité</legend>
+                <div>
+                    <label for="mad">Madame</label>
+                    <input type="radio" name="Civilite" id="mad">
+                </div>
+                <div>
+                    <label for="mon">Monsieur</label>
+                    <input type="radio" name="Civilite" id="mon" checked>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Vos Coordonnées:</legend>
+                <div>
+                    <input type="hidden" value="48h8tr6dr4g" name="token" id="">
+                </div>
+                <div>
+                    <label for="Prénom">Prénom*</label>
+                    <input type="text" name="Prénom" id="Prénom" placeholder="Votre Prénom" required pattern="[A-Za-z]+"><br>
+                </div>
+                <div>
+                    <label for="Nom">Nom*</label>
+                    <input type="text" name="Nom" id="Nom" placeholder="Votre Nom" minlength="1" maxlength="15" required pattern="[A-Za-z]+"><br>
+                </div>
+                <div>
+                    <label for="Mail">Mail*</label>
+                    <input type="email" name="Mail" id="Mail" placeholder="Votre Email" required><br>
+                </div>
+                    <label for="password">Mot de passe*</label>
+                    <input type="password" name="password" id="password" placeholder="Votre mot de passe" required><br>
+                </div>
+                <div>
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="HTML" id="html"><br>
+                </div>
+                <div>
+                    <input type="checkbox" name="Javascript" id="js">
+                    <label for="js">Javascript</label><br>
+                </div>
+                <div>
+                    <label for="php">PHP</label>
+                    <input type="checkbox" name="PHP" id="php"><br>
+                </div>
+                <div>
+                    <label for="lang">Langues</label>
+                    <select name="langue" id="lang" multiple>
+                        <option value="Français" selected>Français</option>
+                        <option value="Anglais">Anglais</option>
+                        <option value="Espagnol">Espagnol</option>
+                        <option value="Allemand">Allemand</option>
+                    </select>
+                </div>
+                </fieldset>
+                <div>
+                    <label>Age:</label>
+                    <input type="number" min="18" max="150" step="5" name="" id="">
+                </div>
+                <div>
+                    <label for="">Date de naissance</label>
+                    <input type="date" name="" id="">
+                </div>
+                <div>
+                    <label for="">Télécharger</label>
+                    <input type="file" name="Télécharger" id="">
+                </div>
+                <div>
+                    <textarea name="lorem" id="loremIpsium" cols="50" rows="20">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut augue ac diam gravida dictum. Etiam imperdiet, est ac commodo aliquam, metus turpis ultrices eros, id varius dui ex tincidunt neque. Donec ultricies quis lectus sed malesuada. In imperdiet ut diam id volutpat. Praesent egestas at libero id cursus. Pellentesque accumsan mi id leo consequat dapibus. In id purus non neque rhoncus vulputate. Fusce sapien mauris, condimentum sed nisl eu, rhoncus luctus risus. Aliquam blandit, lorem at egestas ultricies, purus metus efficitur elit, at facilisis sem augue eget turpis. Fusce ac nunc metus. Pellentesque purus ligula, laoreet euismod lorem in, iaculis sagittis libero. Aenean venenatis eu eros a dapibus. Maecenas ex dui, mattis eget rhoncus ac, ornare dignissim nisi. Nulla posuere consectetur imperdiet.
+                    </textarea>
+                </div>
+                <div>
+                    <button type="submit">Envoyer</button>
+                    <button type="reset">Annuler</button>
+                </div>
+        </form>
+    </body>
+</html>

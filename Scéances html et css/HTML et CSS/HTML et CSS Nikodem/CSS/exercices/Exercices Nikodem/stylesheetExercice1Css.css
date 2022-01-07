@@ -1,0 +1,47 @@
+h1
+    {
+        color: #69F4F9;
+        text-align: center;
+    }
+body
+    {
+        font-size: calc(100% * 1.4);
+    }
+div
+    {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+.paraBleu
+    {
+        color: #262C7B;
+    }
+.paraBrown
+    {
+        color: #A44E32;
+    }
+em
+    {
+        color: #969696;
+    }
+h2
+    {
+        color: #E13B1D;
+        text-align: center;
+    }
+h3
+    {
+        color: #E13B1D;
+    }
+h4
+    {
+        color: #843AA4;
+    }
+i
+    {
+        color: #F5F271;
+    }
+strong
+    {
+        color: #3F6825;
+    }
