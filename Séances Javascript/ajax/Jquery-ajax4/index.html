@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+   	<meta charset="UTF-8">
+   	<title>Exemple jQuery AJAX POST</title>
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="../../../../css/railscasts.css">
+	<script src="../../../../js/highlight.pack.js"></script>       
+</head>
+<body>
+ <div id = "container" >
+   <h3>Un exemple AJAX, Php et MySQL avec la méthode ajax() de jQuery</h3>
+   <p><strong>Veuillez remplir le formulaire et cliquer sur Enregistrer, s'il vous plait.</strong></p>
+   <div id="message"></div>
+    <form name='form1'>
+      <table align = "">
+        <tr><td></td></tr>
+         <tr>
+            <td>
+              <label>Prénom:</label>&nbsp;
+            </td>
+            <td>
+              <input type='text' placeholder='Prénom' name='first_name' id= 'first_name' required ><br />
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label>Nom :</label>&nbsp;
+            </td>
+            <td>
+              <input type='text' placeholder='Nom' name='last_name' id='last_name' required ><br />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Email :</label>&nbsp;
+            </td>
+            <td>
+              <input type='email' name='mail' placeholder='Email' id='email' required ><br />
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>
+              <input class='btn' type="button" id = "saveusers" value = "Enregistrer" />
+            </td>
+          </tr>
+        </table>
+    </form>
+  </div>
+
+<pre><code class="php hljs xml">&lt;?php  
+
+$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION; 
+$db = new PDO('mysql:host=localhost;dbname=dbusers;charset=utf8', 'root', 'root',$pdo_options);
+
+
+/* Get data from Client side using $_POST array */
+$fname  = $_POST['first_name'];
+$lname  = $_POST['last_name'];
+$email  = $_POST['email'];
+
+
+$requete = $db->prepare('INSERT INTO users(prenom, nom, email) VALUES(:prenom, :nom, :email)'); 
+$requete->execute(array(
+	 'prenom' => $fname,
+	 'nom' => $lname,
+	 'email' => $email)); 
+
+echo 'Vous êtes enregistré !'; 
+   
+?&gt;
+</code></pre>
+<script>hljs.initHighlightingOnLoad();</script>   
+</body>  
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
