@@ -20,4 +20,6 @@ d = a % b
 print('La divison de ' + str(a) + ' par ' + str(b) + ' est egale a ' + str(c) + '. Il reste ' + str(d))
 
 chaine = "Et voila du texte"
-print(chaine)
+chaine1 = ' Nous l\'avons'
+chaine3 = ' \"reparee\"'
+print(chaine + chaine1 + chaine3)
