@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    width: 25%;
+    /* align-items: center; */
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    /* display: flex; */
+    border: solid 1px black;
+}
+
+div {
+    display: flex;
+
+}
+
+label {
+    left: 0px;
+    border-right: solid 1px black;
+}
+
+input {
+    /* display: flex; */
+    position: absolute;
+    right: 0;
+}
