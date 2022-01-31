@@ -7,8 +7,8 @@ class Person {
         this.work = work;
         this.friends = friends;
     }
-    addFriend(){
-        this.friends.push(new Person());
+    addFriend(name, age, sex, parent, work, friends){
+        this.friends.push(new Person(name, age, sex, parent, work, friends));
     }
 };
 
@@ -17,4 +17,4 @@ seb.age = 23;
 seb.addFriend('Annie', 26, 'F', 'Developpeuse', []);
 seb.addFriend('John', 46, 'M', 'Developper', []); 
 
-alert (seb.name + ' a ' + seb.age + ' ans.'+ 'Amis: ' + seb.friends[0, 1].name);
+alert (seb.name + ' a ' + seb.age + ' ans.'+ 'Amis: ' + seb.friends[0].name);
